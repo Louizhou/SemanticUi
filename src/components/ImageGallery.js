@@ -16,7 +16,7 @@ class ImageGallery extends React.Component {
 
     componentWillMount(){
         const that = this
-        axios.get(img src='http://jsonplaceholder.typicode.com/photos')
+        axios.get('http://jsonplaceholder.typicode.com/photos')
         .then(function(res){
             var data = res.data
             that.setState({
